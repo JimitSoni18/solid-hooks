@@ -25,10 +25,10 @@
 		"url": "https://github.com/JimitSoni18/solid-hooks/issues"
 	},
 	"homepage": "https://github.com/JimitSoni18/solid-hooks#readme",
-	"dependencies": {
-		"solid-js": "^1.8.15"
-	},
 	"devDependencies": {
 		"typescript": "^5.3.3"
+	},
+	"peerDependencies": {
+		"solid-js": "^1.8.15"
 	}
 }
