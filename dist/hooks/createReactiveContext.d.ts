@@ -1,0 +1,1 @@
+export default function createReactiveContext<T, A = any>(initialValue: T, reducer: (prev: T, action: A) => T): readonly [import("solid-js").Context<import("solid-js").Accessor<T>>, (action: A) => void, import("solid-js").Accessor<T>];
